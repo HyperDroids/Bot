@@ -11,5 +11,21 @@ client.on('message', message => {
   	}
 });
 
+
+client.on('message', message => {
+    if (message.content === 'Is Hydroid Zach?') {
+    	message.reply('No, @HyperDroid#2164 is the manager here. Zach is @Zach#4237');
+  	}
+});
+
+
+client.on('message', message => {
+    if (message.content === 'Who made this bot?') {
+    	message.reply('@HyperDroid#2164, of course!');
+  	}
+});
+
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
