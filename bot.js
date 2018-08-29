@@ -14,14 +14,14 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'Is Hydroid Zach?') {
-    	message.reply('No, Hydroid is the manager here. Zach is @ZachHing#4237');
+    	message.reply('"Hydroid#2164" is not Zach. He is the manager here. Zach is "ZachHing#4237".');
   	}
 });
 
 
 client.on('message', message => {
     if (message.content === 'Who made this bot?') {
-    	message.reply('@HyperDroid#2164, of course!');
+    	message.reply('HyperDroid#2164 made both HyperBots.');
   	}
 });
 
