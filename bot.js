@@ -20,6 +20,13 @@ client.on('message', message => {
 
 
 client.on('message', message => {
+    if (message.content === 'Alexa, play Despacito') {
+    	message.reply('".play despacito');
+  	}
+});
+
+
+client.on('message', message => {
     if (message.content === 'Who made this bot?') {
     	message.reply('HyperDroid#2164 made both HyperBots.');
   	}
